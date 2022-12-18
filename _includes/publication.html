@@ -1,0 +1,21 @@
+<tr {% if publi.id %}id="{{ publi.id }}"{% endif %}
+    class="
+        highlightable-target
+        {% if publi.future %}future{% endif %}
+        ">
+    <td class="inner-margin">{{ publi.date }}</td>
+    <td>
+        “<strong>{{ publi.title }}</strong>”.
+        {{ publi.authors }}.
+        {% if publi.place %}In {% include maybe-link.html entry=publi.place %}.{% endif %}
+        {% if publi.core %}Core Ranking {{ publi.core.year }}: {{ publi.core.rank }}.{% endif %}
+        {% if publi.note %}{{ publi.note }}.{% endif %}
+        {% if publi.article %}<a href="{{ publi.article }}">Article</a>.{% endif %}
+        {% if publi.extended-article %}<a href="{{ publi.extended-article }}">Extended Version</a>.{% endif %}
+        {% if publi.others %}
+            {% for publi_other in publi.others %}
+                {% include maybe-link.html entry=publi_other %}.
+            {% endfor %}
+        {% endif %}
+    </td>
+</tr>

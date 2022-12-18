@@ -1,0 +1,118 @@
+---
+
+- id: "phd-thesis"
+  title: |
+    Verification of Shell Scripts Performing File Hierarchy Transformations
+  authors: "Nicolas Jeannerod"
+  date: "2021"
+  note: "PhD Thesis"
+  others:
+    - text: "PDF"
+      link: "paper/2021-03-30-phd-thesis.pdf"
+    - text: "Dedicated Page"
+      link: "phd-thesis.html"
+  selected: true
+
+- id: "tacas20"
+  title: "Analysing installation scenarios of Debian packages"
+  authors: |
+    Benedikt Becker, Nicolas Jeannerod, Claude Marché, Yann Régis-Gianas,
+    Mihaela Sighireanu and Ralf Treinen
+  date: "2020"
+  place:
+    text: |
+      TACAS 2020 – 26th International Conference on Tools and Algorithms for the
+      Construction and Analysis of Systems",
+    link: "https://etaps.org/2020/tacas"
+  article: "paper/Becker+20.pdf"
+  core:
+    year: "2020"
+    rank: "A"
+  selected: true
+
+- id: "jcl20"
+  title: "Morbig: A Static parser for POSIX shell"
+  authors: "Yann Régis-Gianas, Nicolas Jeannerod and Ralf Treinen"
+  date: "2020"
+  place:
+    text: "Journal of Computer Languages, Volume 57, April 2020"
+    link: "https://www.sciencedirect.com/journal/journal-of-computer-languages/vol/57/suppl/C"
+  article: "paper/RegisGianas+20.pdf"
+  selected: true
+
+- title: |
+    Revision 2 of CoLiS language: formal syntax, semantics, concrete and
+    symbolic interpreters
+  date: "2019"
+  authors: "Benedikt Becker, Nicolas Jeannerod, Claude Marché and Ralf Treinen"
+  note: "Technical Report"
+  article: "paper/Becker+19.pdf"
+
+- title: "Specification of UNIX Utilities"
+  date: "2019"
+  authors: |
+    Nicolas Jeannerod, Claude Marché, Yann Régis-Gianas, Mihaela Sighireanu and
+    Ralf Treinen
+  note: "Technical Report"
+  article: "paper/Jeannerod+19.pdf"
+
+- id: "sle18"
+  title: "Morbig: A Static Parser for POSIX Shell"
+  authors: "Yann Régis-Gianas, Nicolas Jeannerod and Ralf Treinen"
+  date: "2018"
+  place:
+    text: |
+      SLE 2018 - 11th International Conference on Software Language Engineering
+    link: "http://www.sleconf.org/2018/"
+  article: "paper/RegisGianas+18.pdf"
+  core:
+    year: "2018"
+    rank: "B"
+  selected: true
+
+- id: "ijcar18"
+  title: |
+    Deciding the First-Order Theory of an Algebra of Feature Trees with Updates
+  authors: "Nicolas Jeannerod and Ralf Treinen"
+  date: "2018"
+  place:
+    text: |
+      IJCAR 2018 - 9th International Joint Conference on Automated Reasoning
+    link: "http://ijcar2018.org/"
+  article: "paper/JeannerodTreinen18a.pdf"
+  extended-article: "paper/JeannerodTreinen18b.pdf"
+  core:
+    year: "2018"
+    rank: "A*"
+  selected: true
+
+- id: "vstte17"
+  title: "A Formally Verified Interpreter for a Shell-like Programming Language"
+  authors: "Nicolas Jeannerod, Claude Marché and Ralf Treinen"
+  date: "2017"
+  place:
+    text: |
+      VSTTE 2017 - 9th Working Conference on Verified Software: Theories, Tools
+      and Experiments
+    link: "https://vstte17.lri.fr/"
+  article: "paper/Jeannerod+17b.pdf"
+  selected: true
+
+- title: "Having Fun With 31,521 Shell Scripts"
+  date: "2017"
+  authors: "Nicolas Jeannerod, Yann Régis-Gianas and Ralf Treinen"
+  note: "Technical Report"
+  article: "paper/Jeannerod+17a.pdf"
+
+- id: "jfla17"
+  title: "Le coquillage dans le CoLiS-mateur"
+  authors: "Nicolas Jeannerod"
+  date: "2017"
+  place:
+    text: "JFLA 2017 - 28e Journées Francophones des Langages Applicatifs"
+    link: "http://jfla.inria.fr/2017/"
+  article: "paper/Jeannerod17.pdf"
+  others:
+    - text: "Archive"
+      link: "paper/jfla17.tar.gz"
+  selected: true

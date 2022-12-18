@@ -1,0 +1,11 @@
+<tr class="{% if exp.future %}future{% endif %}">
+  <td class="inner-margin">
+    {{ exp.years }}
+    {% if exp.duration %}
+      <div class="duration">({{ exp.duration }})</div>
+    {% endif %}
+  </td>
+  <td>
+      <strong>{{ exp.synopsis }}</strong> {{ exp.description }}
+  </td>
+</tr>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {% if page.title %}{{ page.title }} |{% endif %}
+            {{ site.title }}
+        </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nicolas Jeannerod">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel="stylesheet" type="text/css" href="{{ 'style/main.css' | relative_url }}">
+    </head>
+
+    <body>
+        <header id="top">
+            <div class="content">
+                <a id="to_menu" href="#menu"><div></div><div></div><div></div></a>
+                <img src="{{ 'images/me-right.jpg' | relative_url }}" alt="">
+                <div>
+                    <h1><a href="{{ 'index.html' | relative_url }}">{{ site.title }}</a></h1>
+                    <div id="menu">
+                        <nav>
+                            <h2>Menu</h2>
+                            <ul>
+                                {% for nav-item in site.nav %}
+                                    <li><a class="{% if nav-item.url == page.url %}here{% endif %}"
+                                           href="{{ nav-item.url | relative_url }}">{{ nav-item.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                        <a id="menu-background" href="#"></a>
+                    </div>
+                </div>
+                <span></span>
+            </div>
+        </header>
+
+        <a id="to_top" href="#top">Top</a>
+
+        <div id="body" class="content">
+            {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+
+            {{ content }}
+        </div>
+
+        <footer></footer>
+    </body>
+</html>

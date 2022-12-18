@@ -1,0 +1,22 @@
+
+// Niols's colours
+$color-niols-red: rgb(150, 0, 16);
+$color-niols-red-brighter: rgb(255, 0, 16);
+
+// Jana's colours
+$color-jana-pink: rgb(227, 145, 157);
+$color-jana-pink-darker: rgb(214, 92, 111);
+$color-jana-blue: rgb(40, 87, 157);
+
+// Colours for the body
+$color-foreground: #444444;
+$color-background: white;
+$color-link: $color-jana-pink-darker;
+$color-link-visited: $color-jana-pink-darker;
+$color-link-hover: $color-jana-pink-darker;
+
+// Colours for the headers
+$color-header-foreground: $color-jana-blue;
+$color-header-background: $color-jana-pink;
+
+$layout-breakpoint: 768px;

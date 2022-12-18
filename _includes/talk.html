@@ -1,0 +1,30 @@
+<tr class="{% if talk.future %}future{% endif %}">
+    <td class="inner-margin">{{ talk.date }}</td>
+    <td>
+        “<strong>{{ talk.title }}</strong>”.
+        {% if talk.with %}With {{ talk.with }}.{% endif %}
+        {% if talk.place %}At {% include maybe-link.html entry=talk.place %}.{% endif %}
+
+        <br>
+        Links:
+        {%- if talk.slides %}
+            ⋅&nbsp;<a href="{{ talk.slides }}">Slides</a>
+        {%- endif -%}
+        {%- if talk.demo %}
+            ⋅&nbsp;<a href="{{ talk.demo }}">Demo</a>
+        {%- endif -%}
+        {%- if talk.replay %}
+            ⋅&nbsp;<a href="{% include first-replay-link.html %}">Replay</a>
+            {% include other-replays.html %}
+        {%- endif -%}
+        {%- if talk.article %}
+            ⋅&nbsp;<a href="{{ talk.article }}">Associated article</a>
+        {%- endif -%}
+        {%- if talk.others -%}
+            {%- for talk_other in talk.others %}
+                ⋅&nbsp;{% include maybe-link.html entry=talk_other %}
+            {%- endfor -%}
+        {%- endif -%}
+        .
+    </td>
+</tr>

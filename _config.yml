@@ -1,0 +1,49 @@
+---
+
+## Site settings
+title: "Jana Wagemaker"
+description: |
+  Personal website and curriculum vitae of Jana Wagemaker.
+
+## Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+nav:
+  - name: About
+    url: /
+
+  - name: Curriculum Vitæ
+    url: /curriculum-vitae.html
+
+  - name: Talks
+    url: /talks.html
+
+  - name: Publications
+    url: /publications.html
+
+  - name: Teaching
+    url: /teaching.html
+
+## ========================== [ Theme Parameters ] ========================== ##
+##
+## | Colour Name            |   Hexa  |
+## |------------------------|---------|
+## | Niols's Red            | #960010 |
+## | Niols's Red - Brighter | #ff0010 |
+## | Jana's Pink            | #e3919d |
+## | Jana's Pink - Darker   | #d65c6f |
+## | Jana's Blue            | #28579d |
+
+colours:
+  foreground: "#444444"
+  background: white
+  header:
+    foreground: "#28579d"  ## Jana's Blue
+    background: "#e3919d"  ## Jana's Pink
+  link:
+    normal: "#d65c6f"      ## Jana's Pink - Darker
+    visited: "#d65c6f"     ## Jana's Pink - Darker
+    hover: "#e3919d"       ## Jana's Pink

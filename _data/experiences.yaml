@@ -1,0 +1,64 @@
+---
+
+- years: "2021—now"
+  synopsis: "Research Software Engineer"
+  description: "at Tweag I/O in the High Assurance Team."
+  selected: true
+
+- years: 2021
+  synopsis: "Member of the organising committee"
+  description: "of CONFLANG, a workshop colocated with SPLASH in October 2021."
+
+- years: "2017—2021"
+  duration: "3½ years"
+  synopsis: "Ph.D. in Computer Science"
+  description: |
+    at IRIF (Université de Paris, France) with Ralf Treinen and Yann
+    Régis-Gianas on the “Verification of Shell Scripts Performing File Hierarchy
+    Transformations”.
+  selected: true
+
+- years: "2016—2020"
+  duration: "4 years"
+  synopsis: "Teaching"
+  description: |
+    at UFR Informatique (Université de Paris, France) including both practical
+    and written exercises sessions for a total of 240h over 4 years. In addition
+    to these hours in front of the students, the work included preparing
+    materials and grading exams and projects.
+
+- years: "2017"
+  duration: "3 months"
+  synopsis: "Google Summer of Code"
+  description: |
+    with Aymeric Fromherz and Nikos Gorogiannis: “Verification and Testing of
+    Heap-based Programs with Symbolic PathFinder”.
+
+- years: "2016—2017"
+  duration: "1 year"
+  synopsis: "Research Internship"
+  description: |
+    at IRIF (Université de Paris, France) with Ralf Treinen and Mihaela
+    Sighireanu: “Correctness of Linux Scripts”.
+
+- years: "2016"
+  duration: "6 months"
+  synopsis: "Research Internship"
+  description: |
+    at IRIF (Université de Paris, France) with Ralf Treinen and Mihaela
+    Sighireanu: “Towards Verification of Shell Scripts”.
+
+- years: "2015"
+  duration: "5 months"
+  synopsis: "Research Internship"
+  description: |
+    in the Complogic team (McGill University, Montréal, Canada) with Brigitte
+    Pientka in order to help with the development of the proof assistant Beluga.
+
+- years: "2014"
+  duration: "3 months"
+  synopsis: "Research Internship"
+  description: |
+    at the Institut de Mathématiques de Marseille (France) with Lionel Vaulx
+    Auclair and Emmanuel Beffara: “On a logical counterpart of local
+    non-determinism in classical realisability”.

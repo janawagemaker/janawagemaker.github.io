@@ -1,0 +1,83 @@
+#body {
+  div.details {
+    font-size: .8rem;
+    font-style: italic;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    & > * {
+      margin-top: .4rem; // font-size at 80%; margin-top at 80% as well
+      margin-left: 2rem;
+
+      @media (max-width: $layout-breakpoint) {
+        margin-left: 1rem;
+      }
+    }
+
+    .full-line {
+      width: 100%;
+    }
+  }
+
+  table {
+      border-collapse: separate;
+      border-spacing: 1rem 1rem;
+  }
+
+  td.inner-margin, td.empty-inner-margin {
+      width: 10ch;
+      text-align: right;
+  }
+
+  td .duration {
+      font-size: 70%;
+  }
+
+  @media (max-width: $layout-breakpoint) {
+      table {
+          display: block;
+          border-spacing: 0;
+      }
+
+      tr, td {
+          display: block;
+      }
+
+      td.inner-margin, td.empty-inner-margin {
+          margin-top: 1rem;
+          margin-bottom: .5rem;
+          text-align: inherit;
+          width: auto;
+      }
+
+      td .duration {
+          display: inline;
+          font-size: 100%;
+      }
+
+      td.inner-margin::after {
+          content: ":";
+      }
+
+  }
+
+  .future {
+    @include overlay {
+      background: $color-background;
+      opacity: 0.7;
+    }
+  }
+
+  .highlightable-target:target {
+    @include overlay(.5rem) {
+      background: $color-header-background;
+      opacity: 0.2;
+      animation-name: fadeout;
+      animation-duration: 2s;
+      animation-fill-mode: forwards; // to stay on the last frame
+    }
+  }
+}

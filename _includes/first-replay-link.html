@@ -1,0 +1,9 @@
+{%- if talk.replay['1080p'] -%}
+    {{ talk.replay['1080p'] }}
+{%- elsif talk.replay['720p'] -%}
+    {{ talk.replay['720p'] }}
+{%- elsif talk.replay['360p'] -%}
+    {{ talk.replay['360p'] }}
+{%- else -%}
+    FIXME
+{%- endif -%}

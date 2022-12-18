@@ -1,0 +1,21 @@
+<span style="font-size: smaller;">
+  {%- if talk.replay['1080p'] -%}
+    {%- if talk.replay['720p'] -%}
+      {%- if talk.replay['360p'] -%}
+        [<a href="{{ talk.replay['720p'] }}">MQ</a>;<a href="{{ talk.replay['360p'] }}">LQ</a>]
+      {%- else -%}
+          [<a href="{{ talk.replay['720p'] }}">MQ</a>]
+      {%- endif -%}
+    {%- else -%}
+      {%- if talk.replay['360p'] -%}
+          [<a href="{{ talk.replay['360p'] }}">LQ</a>]
+      {%- endif -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- if talk.replay['720p'] -%}
+        {%- if talk.replay['360p'] -%}
+            [<a href="{{ talk.replay['360p'] }}">LQ</a>]
+        {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+</span>

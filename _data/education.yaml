@@ -1,0 +1,38 @@
+---
+
+- years: "2013—2017"
+  duration: "4 years"
+  synopsis: "ENS Graduate Degree"
+  description: |
+    at the École normale supérieure (Paris, France). This is a research-oriented
+    four-year program including the third year of bachelor, the two years of
+    master and an extra year — in my case, a one year-long internship. The
+    degree requires the validation of extra courses in addition to the bachelor
+    and master.
+  selected: true
+
+- years: "2014—2016"
+  duration: "2 years"
+  synopsis: "Master's Degree in Computer Science"
+  description: |
+    at the Université de Paris (France). The “Master Parisien de Recherche en
+    Informatique” is a research-oriented master program in computer science
+    whose purpose is to train future scientists through intensive exposure to
+    contemporary research.
+  selected: true
+
+- years: "2013—2014"
+  duration: "1 year"
+  synopsis: "Bachelor's Degree in Computer Science"
+  description: |
+    at the École normale supérieure (Paris, France). The two years of
+    preparatory classes, completed by first year of the École normale
+    supérieure, include a full bachelor.
+
+- years: "2011—2013"
+  duration: "2 years"
+  synopsis: "Preparatory Classes MPSI/MP*"
+  description: |
+    at the Lycée du Parc (Lyon, France). Preparatory Classes are an intensive
+    two-year preparation for competitive entrance into top engineering and
+    research schools.

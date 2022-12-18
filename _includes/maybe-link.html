@@ -1,0 +1,5 @@
+{%- if include.entry.link -%}
+    <a href="{{ include.entry.link }}">{{ include.entry.text }}</a>
+{%- else -%}
+    {{ include.entry }}
+{%- endif -%}

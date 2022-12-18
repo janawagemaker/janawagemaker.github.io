@@ -1,0 +1,10 @@
+<tr class="{% if teachi.future %}future{% endif %}">
+    <td class="inner-margin">
+        {{ teachi.date }}
+        <div class="duration">({{ teachi.duration }})</div>
+    </td>
+    <td>
+        “<strong>{{ teachi.title }}</strong>”.
+        {{ teachi.kind }} at {{ teachi.school }} ({{ teachi.place }}): {{ teachi.description }}.
+    </td>
+</tr>

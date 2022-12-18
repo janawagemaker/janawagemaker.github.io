@@ -1,0 +1,157 @@
+---
+
+- title: "Verification of Shell Scripts Performing File Hierarchy Transformations"
+  date: "Mar. 2021"
+  exact-date: "2021-03-30"
+  place: "PhD Thesis Defence"
+  slides: "slides/2021-03-30-defence.pdf"
+  replay:
+    1080p: "video/2021-03-30-defence-1080p.webm"
+    720p: "video/2021-03-30-defence-720p.webm"
+    360p: "video/2021-03-30-defence-360p.webm"
+  others:
+    - text: "Dedicated Page"
+      link: "phd-thesis.html"
+    - text: "Thesis"
+      link: "#phd-thesis"
+  selected: true
+
+- title: "Verification of Shell Scripts Performing File Hierarchy Transformations"
+  date: "Mar. 2021"
+  exact-date: "2021-03-23"
+  place:
+    text: "IRIF's “Journées PPS”"
+    link: "https://www.irif.fr/rencontres/pps2021/index"
+  slides: "slides/2021-03-23-pps.pdf"
+
+- title: "Analysing installation scenarios of Debian Packages"
+  date: "Dec. 2020"
+  exact-date: "2020-12-14"
+  place:
+    text: "IRIF's Verification Seminar"
+    link: "https://www.irif.fr/seminaires/verif/index"
+  slides: "slides/2020-12-14-semverif.pdf"
+  demo: "demo/2020-04-08-semidoc"
+  replay: "https://bbb-lb.math.univ-paris-diderot.fr/playback/presentation/2.0/playback.html?meetingId=972f09fb375ed24cd2f676ef7a70c4bbea355455-1607938878313"
+  article: "#tacas20"
+  selected: true
+
+- title: "Analysing installation scenarios of Debian Packages"
+  date: "Apr. 2020"
+  exact-date: "2020-04-08"
+  place:
+    text: "IRIF's Ph.D. Students Seminar"
+    link: "https://www.irif.fr/seminaires/doctorants/index"
+  slides: "slides/2020-04-08-semidoc.pdf"
+  demo: "demo/2020-04-08-semidoc"
+  article: "#tacas20"
+
+- title: "Symbolic Execution of Debian Packages"
+  date: "Sept. 2019"
+  exact-date: "2019-09-09"
+  place:
+    text: "AVM'19"
+    link: "https://avm19.fit.vutbr.cz/"
+  slides: "slides/2019-09-09-avm.pdf"
+  demo: "demo/2019-07-21-debconf"
+  selected: true
+
+- title: "Symbolic Execution of Maintainer Scripts"
+  date: "Jul. 2019"
+  exact-date: "2019-07-21"
+  place:
+    text: "DebConf'19"
+    link: "https://debconf19.debconf.org/"
+  with: "Ralf Treinen"
+  slides: "slides/2019-07-21-debconf.pdf"
+  demo: "demo/2019-07-21-debconf"
+  replay:
+    720p: "video/2019-07-21-debconf-720p.webm"
+    360p: "video/2019-07-21-debconf-360p.webm"
+  selected": true
+
+- title: "Mining Debian Maintainer Scripts"
+  date: "Jul. 2018"
+  exact-date: "2018-07-31"
+  place:
+    text: "DebConf'18"
+    link: "https://debconf18.debconf.org/"
+  with: "Ralf Treinen"
+  slides: "slides/2018-07-31-debconf.pdf"
+  replay:
+    720p: "video/2018-07-31-debconf-720p.webm"
+    360p: "video/2018-07-31-debconf-360p.webm"
+  selected: true
+
+- title: "Deciding the First-Order Theory of an Algebra of Feature Trees with Updates"
+  date: "Jul. 2018"
+  exact-date: "2018-07-16"
+  place:
+    text: "IJCAR'18"
+    link: "http://ijcar2018.org/"
+  slides: "slides/2018-07-16-ijcar.pdf"
+  article: "#ijcar18"
+  selected: true
+
+- title: "Deciding the First-Order Theory of an Algebra of Feature Trees with Updates"
+  date: "Jun. 2018"
+  exact-date: "2018-06-25"
+  place:
+    text: "IRIF's Verification Seminar"
+    link: "https://www.irif.fr/seminaires/verif/index"
+  slides: "slides/2018-06-25-verif.pdf"
+  article: "#ijcar18"
+  selected: true
+
+- title: "Feature Constraints to Modelise Unix Filesystems"
+  date: "Feb. 2018"
+  exact-date: "2018-02-07"
+  place:
+    text: "IRIF's Ph.D. Students Seminar"
+    link: "https://www.irif.fr/seminaires/doctorants/index"
+  slides: "slides/2018-02-07-semidoc.pdf"
+
+- title: "Unix Filesystem and Graph Constraints"
+  date: "Oct. 2017"
+  exact-date: "2017-10-02"
+  place:
+    text: "IRIF's “Journées PPS”"
+    link: "https://www.irif.fr/rencontres/pps2017/index"
+  slides: "slides/2017-10-12-pps.pdf"
+
+- title: "Formalising an Intermediate Language for POSIX Shell"
+  date: "Sept. 2017"
+  exact-date: "2017-09-18"
+  place:
+    text: "Seminar Gallium"
+    link: "http://gallium.inria.fr/seminar.html"
+  with: "Yann Régis-Gianas"
+  slides: "slides/2017-09-18-gallium.pdf"
+  selected: true
+
+- title: "A Formally Verified Interpreter for a Shell-like Programming Language"
+  date: "Jul. 2017"
+  exact-date: "2017-07-22"
+  place:
+    text: "VSTTE'17"
+    link: "https://vstte17.lri.fr/"
+  slides: "slides/2017-07-22-vstte.pdf"
+  article: "#vstte17"
+  selected: true
+
+- title: "A Formally Verified Interpreter for a Shell-like Programming Language"
+  date: "Jul. 2017"
+  exact-date: "2017-07-07"
+  place: "Seminar VALS"
+  slides: "slides/2017-07-07-vals.pdf"
+  selected: true
+
+- title: "Le coquillage dans le CoLiS-mateur"
+  date: "Jan. 2017"
+  exact-date: "2017-01-05"
+  place:
+    text: "JFLA'17"
+    link: "http://jfla.inria.fr/2017/"
+  slides: "slides/2017-01-04-jfla.pdf"
+  article: "#jfla17"
+  selected: true

@@ -1,0 +1,15 @@
+@mixin overlay($margin: 0) {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: - $margin;
+    left: - $margin;
+    right: - $margin;
+    bottom: - $margin;
+    pointer-events: none;
+
+    @content;
+  }
+}
