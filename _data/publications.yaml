@@ -10,8 +10,31 @@
   arxiv: "https://arxiv.org/abs/2210.13020"
 
 
+- title: "Centralized vs Decentralized Monitors for Hyperproperties"
+  date: "2024"
+  authors: "Luca Aceto, Antonis Achilleos, Elli Anastasiadi, Adrian Francalanza, Daniele Gorla, Jana Wagemaker"
+  place:
+    text: To Appear at CONCUR
+    link: https://confest2024.github.io/
+  arxiv: "https://arxiv.org/abs/2405.12882"
 
+- title: "Completeness Theorems for Kleene Algebra with Top"
+  date: "2022"
+  authors: "Damien Pous, Jana Wagemaker"
+  place:
+    text: CONCUR
+    link: https://concur2022.mimuw.edu.pl/index.html
+  doi: "https://doi.org/10.4230/LIPIcs.CONCUR.2022.26"
+  arxiv: "https://arxiv.org/abs/2304.07190"
 
+  - title: "Concurrent NetKAT - Modeling and analyzing stateful, concurrent networks"
+  date: "2022"
+  authors: "Nate Foster, Tobias Kappé, Dexter Kozen, Jurriaan Rot, Alexandra Silva, Jana Wagemaker"
+  place:
+    text: ESOP
+    link: https://etaps.org/2022/
+  doi: "https://doi.org/10.1007/978-3-030-99336-8_21"
+  arxiv: "https://arxiv.org/abs/2201.10485"
 
 
 # - id: "phd-thesis"
