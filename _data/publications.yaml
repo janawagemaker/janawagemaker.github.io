@@ -1,13 +1,13 @@
 ---
 
-# - title: "On Tools for Completeness of Kleene Algebra with Hypotheses"
-#   date: "2024"
-#   authors: "Damien Pous, Jurriaan Rot, Jana Wagemaker"
-#   place:
-#     text: LMCS
-#     link: https://lmcs.episciences.org/
-#   doi: "haha"
-#   arxiv: "hoho"
+- title: "On Tools for Completeness of Kleene Algebra with Hypotheses"
+  date: "2024"
+  authors: "Damien Pous, Jurriaan Rot, Jana Wagemaker"
+  place:
+    text: LMCS
+    link: https://lmcs.episciences.org/
+  doi: "https://doi.org/10.46298/lmcs-20(2:8)2024"
+  arxiv: "https://arxiv.org/abs/2210.13020"
 
 
 
