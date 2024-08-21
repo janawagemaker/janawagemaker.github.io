@@ -27,15 +27,32 @@
   doi: "https://doi.org/10.4230/LIPIcs.CONCUR.2022.26"
   arxiv: "https://arxiv.org/abs/2304.07190"
 
-  - title: "Concurrent NetKAT - Modeling and analyzing stateful, concurrent networks"
+- title: "Concurrent NetKAT - Modeling and analyzing stateful, concurrent networks"
   date: "2022"
-  authors: "Nate Foster, Tobias Kappé, Dexter Kozen, Jurriaan Rot, Alexandra Silva, Jana Wagemaker"
+  authors: "Jana Wagemaker, Nate Foster, Tobias Kappé, Dexter Kozen, Jurriaan Rot, Alexandra Silva"
   place:
     text: ESOP
     link: https://etaps.org/2022/
   doi: "https://doi.org/10.1007/978-3-030-99336-8_21"
   arxiv: "https://arxiv.org/abs/2201.10485"
 
+- title: "On Tools for Completeness of Kleene Algebra with Hypotheses"
+  date: "2021"
+  authors: "Damien Pous, Jurriaan Rot, Jana Wagemaker"
+  place:
+    text: RAMiCS
+    link: https://ramics19.lis-lab.fr/
+  doi: "https://doi.org/10.1007/978-3-030-88701-8_23"
+  arxiv: "https://hal.science/hal-03269462/"
+
+- title: "Partially Observable Concurrent Kleene Algebra"
+  date: "2020"
+  authors: "Jana Wagemaker, Paul Brunet, Simon Docherty, Tobias Kappé, Dexter Kozen, Jurriaan Rot, Alexandra Silva"
+  place:
+    text: CONCUR
+    link: https://concur2020.forsyte.at/
+  doi: "https://doi.org/10.4230/LIPIcs.CONCUR.2020.20"
+  arxiv: "https://arxiv.org/abs/2007.07593"
 
 # - id: "phd-thesis"
 #   title: |
