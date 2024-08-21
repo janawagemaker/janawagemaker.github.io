@@ -54,6 +54,24 @@
   doi: "https://doi.org/10.4230/LIPIcs.CONCUR.2020.20"
   arxiv: "https://arxiv.org/abs/2007.07593"
 
+- title: "Concurrent Kleene Algebra with Observations: From Hypotheses to Completeness"
+  date: "2020"
+  authors: "Tobias Kappé, Paul Brunet, Alexandra Silva, Jana Wagemaker, Fabio Zanasi"
+  place:
+    text: FoSSaCS
+    link: https://www.etaps.org/2020/fossacs
+  doi: "https://doi.org/10.1007/978-3-030-45231-5_20"
+  arxiv: "https://arxiv.org/abs/2002.09682"
+
+- title: "Kleene Algebra with Observations"
+  date: "2019"
+  authors: "Tobias Kappé, Paul Brunet, Alexandra Silva, Jurriaan Rot, Jana Wagemaker, Fabio Zanasi"
+  place:
+    text: CONCUR
+    link: https://event.cwi.nl/concur2019/
+  doi: "https://doi.org/10.4230/LIPIcs.CONCUR.2019.41"
+  arxiv: "https://arxiv.org/abs/1811.10401"
+
 # - id: "phd-thesis"
 #   title: |
 #     Verification of Shell Scripts Performing File Hierarchy Transformations
