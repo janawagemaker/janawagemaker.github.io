@@ -7,8 +7,10 @@ In July 2024, I started as an assistant professor at Radboud University in
 Nijmegen, in the [Software Science Group]. Before that, I was a postdoc at
 Reykjavik University, working with Antonis Achilleos and Luca Aceto. I completed
 my PhD at Radboud University under the supervision of Jurriaan Rot and Alexandra
-Silva. I defended my PhD thesis titled _Extensions of (Concurrent) Kleene
+Silva. I defended my [PhD thesis] titled _Extensions of (Concurrent) Kleene
 Algebra_ in October 2022.
+
+[PhD thesis]: https://ipa.win.tue.nl/?event=extensions-of-concurrent-kleene-algebra
 
 You can write me at firstname _DOT_ lastname _AT_ ru _DOT_ nl.
 
