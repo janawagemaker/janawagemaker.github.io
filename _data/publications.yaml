@@ -46,7 +46,7 @@
 
 - title: "Partially Observable Concurrent Kleene Algebra"
   date: "2020"
-  authors: "Jana Wagemaker, Paul Brunet, Simon Docherty, Tobias Kappé, Dexter Kozen, Jurriaan Rot, Alexandra Silva"
+  authors: "Jana Wagemaker, Paul Brunet, Simon Docherty, Tobias Kappé, Jurriaan Rot, Alexandra Silva"
   place:
     text: CONCUR
     link: https://concur2020.forsyte.at/
