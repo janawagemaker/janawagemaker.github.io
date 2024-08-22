@@ -10,6 +10,7 @@ my PhD at Radboud University under the supervision of Jurriaan Rot and Alexandra
 Silva. I defended my [PhD thesis] titled _Extensions of (Concurrent) Kleene
 Algebra_ in October 2022.
 
+[Software Science Group]: https://sws.cs.ru.nl/
 [PhD thesis]: https://ipa.win.tue.nl/?event=extensions-of-concurrent-kleene-algebra
 
 You can write me at firstname _DOT_ lastname _AT_ ru _DOT_ nl.
@@ -33,5 +34,3 @@ of those algebraic perspectives. Concretely, I worked on Kleene algebra and
 related topics during my PhD, and during my postdoc I have focused on the
 logical principles of monitorability, which is a fundamental area of study
 within runtime verification.
-
-[Software Science Group]: https://sws.cs.ru.nl/
