@@ -11,9 +11,9 @@
         {{ publi.authors }}
         <br/>
         <ul class="details">
-            {% if publi.doi %}<li><a href="{{ publi.doi }}">DOI</a></li>{% endif %}
-            {% if publi.arxiv %}<li><a href="{{ publi.arxiv }}">arXiv</a></li>{% endif %}
-            {% if publi.pdf %}<li><a href="{{ publi.pdf }}">PDF</a></li>{% endif %}
+            {%- if publi.doi -%}<li><a href="{{ publi.doi }}">DOI</a></li>{%- endif -%}
+            {%- if publi.arxiv -%}<li><a href="{{ publi.arxiv }}">arXiv</a></li>{%- endif -%}
+            {%- if publi.pdf -%}<li><a href="{{ publi.pdf }}">PDF</a></li>{%- endif -%}
         </ul>
     </td>
 </tr>
