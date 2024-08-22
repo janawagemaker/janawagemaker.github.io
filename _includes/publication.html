@@ -10,7 +10,8 @@
         <br/>
         {{ publi.authors }}
         <br/>
-        {% if publi.doi %}<a href="{{ publi.doi }}">DOI</a> ⋅{% endif %}
-        {% if publi.arxiv %}<a href="{{ publi.arxiv }}">arXiv</a>{% endif %}
+        {% if publi.doi %}⋅ <a href="{{ publi.doi }}">DOI</a>{% endif %}
+        {% if publi.arxiv %}⋅ <a href="{{ publi.arxiv }}">arXiv</a>{% endif %}
+        {% if publi.pdf %}⋅ <a href="{{ publi.pdf }}">PDF</a>{% endif %}
     </td>
 </tr>
