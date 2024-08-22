@@ -1,0 +1,22 @@
+#body {
+    ul.details {
+        list-style-type: none;
+        list-decoration: none;
+
+        li {
+            display: inline-block;
+            margin: 0;
+
+            &::before {
+                content: "";
+                margin: 0;
+            }
+        }
+
+        li:not(:first-child)::before {
+            content: "  •  ";
+            // margin-left: 2ch;
+            color: $color-foreground;
+        }
+    }
+}
